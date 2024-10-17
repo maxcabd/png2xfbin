@@ -1,0 +1,8 @@
+[package]
+name = "png2xfbin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# used for reading and writing Ultimate Ninja Storm CONNECTIONS xfbin files
+xfbin = { path = "../xfbin-dev" }
